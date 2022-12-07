@@ -5,7 +5,7 @@ from nltk.tokenize import word_tokenize
 nltk.download("punkt")
 
 
-def get_entity_pairs(sentence):
+def get_entities_pair(sentence):
     """Get the subject and the object of a sentence. They represent entities of a potential
     graph
 
